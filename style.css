@@ -1,0 +1,315 @@
+/* تنسيق الصفحة العامة */
+body {
+    direction: rtl;
+    font-family: 'Glacial Indifference', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #6d493b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* لضمان عرض الصفحة في وسط الشاشة */
+   
+   
+    
+}
+
+/* مقاس الصفحة A4 */
+.container {
+    background-image: url('background.png'); /* صورة الخلفية (اختياري) */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    width: 210mm; /* عرض ورقة A4 */
+    height: 297mm; /* ارتفاع ورقة A4 */
+   
+    border: 3px solid #2c3e50; /* إطار الصفحة */
+    border-radius: 10px; /* زوايا دائرية للإطار */
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* ظل خفيف */
+    
+    box-sizing: border-box; /* يضمن أن padding والحدود داخل الحجم المحدد */
+    align-content: space-between;
+    justify-content: space-around;
+}
+.column {
+    display: flex;
+    gap: 20px; /* إضافة فراغ بين العمودين */
+}
+
+/* العمود الأيسر */
+.left-column {
+    width: 30%;
+    height: 270mm; 
+    padding: 20px;
+    background-color: #2c3e5000;
+    color: #6d493b;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* ظل خفيف */
+    border-radius: 10px; /* زوايا دائرية */
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+/* صورة الملف الشخصي */
+.profile-img img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white; /* إطار حول الصورة */
+   
+}
+
+.profile-img {
+    
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+    padding-top: 37px;
+    padding-left: 52px;
+}
+
+/* العمود الأيمن */
+.right-column {
+    width: 50%;
+    height: 280mm; 
+    padding: 20px;
+    background-color: #ffffff00;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* ظل خفيف */
+    border-radius: 10px; /* زوايا دائرية */
+    margin-bottom: 20px;
+    gap: 20px;
+    text-align: center;
+}
+
+/* تنسيق الأقسام مع إطار وظل */
+section {
+   
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: #ffffff00;
+    border: 1px solid #ddd; /* إطار لكل قسم */
+    border-radius: 8px; /* زوايا دائرية */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05); /* ظل خفيف */
+    
+}
+p {
+    
+    font-size: 12px ;
+    text-align: justify;
+    direction: ltr;
+   
+}
+.experience{
+    
+   margin: 0px;
+   
+}
+
+h2 {
+    border-bottom: 2px solid #6d493b;
+    padding-bottom: 42px;
+    
+}
+h2.name-heading {
+    font-family: 'TAN Mon Cheri', cursive !important;
+    font-size: 50px !important;
+    font-weight: unset;
+    line-height: 48px;
+    
+}
+
+h3 {
+    margin-top: -12px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+ul li i {
+    margin-right: 10px;
+   
+}
+
+/* تنسيق الخبرات والتعليم */
+.experience-item, .education-item {
+    margin-bottom: 5px;
+    line-height: 18px;
+    text-align: left;
+}
+
+hr {
+    margin: 20px 0;
+    border: 1px solid #ccc;
+}
+
+
+
+
+
+
+.title-background {
+    display: inline-block; /* يسمح للعناصر بالتقيد بحجم المحتوى */
+    background-image: url('Brownshape.png'); /* رابط الصورة */
+    background-size: cover; /* تغطي الصورة الخلفية بالكامل */
+    background-position: center; /* محاذاة الصورة في المنتصف */
+    
+    padding: 20px; /* تعديل المسافة داخل الدائرة لتظهر الصورة بشكل أفضل */
+    text-align: center; /* محاذاة النص في المنتصف */
+    width: 150px; 
+    height: 31px; 
+    margin-bottom: -12px; /* مسافة تحت الدائرة */
+    position: relative; /* لجعل النص يظهر فوق الخلفية */
+    overflow: hidden; /* لإخفاء أي جزء زائد من الصورة */
+}
+
+.title {
+    margin: 0; /* إزالة الهوامش الافتراضية */
+    position: relative; /* لجعل النص يظهر فوق الخلفية */
+    z-index: 1; /* التأكد من أن النص يظهر فوق الخلفية */
+}
+
+.skills-list {
+    list-style: none; /* إزالة النقاط من القائمة */
+    padding: 0; /* إزالة الهوامش */
+}
+
+.skills-list li {
+    display: flex; /* يجعل العناصر في السطر الواحد */
+    align-items: center; /* يضمن محاذاة عمودية للعناصر */
+    margin-bottom: 5px; /* مسافة بين العناصر */
+}
+.skill-name {
+    font-size: 10px;
+    margin-right: 10px; /* مسافة بين اسم المهارة والشريط */
+    text-align: left;
+    width: 90px; /* عرض ثابت لاسم المهارة */
+
+}
+
+.progress-container {
+    flex-grow: 1; /* يجعل شريط النسبة يحتل المساحة المتبقية */
+    background-color: #e0e0e0; /* لون خلفية شريط التقدم غير الملون */
+    border-radius: 5px; /* زوايا دائرية */
+    overflow: hidden; /* لإخفاء أي جزء زائد من الشريط */
+    width: 90px;
+}
+
+.progress-bar {
+    background-color: #6d493b; /* لون شريط النسبة الملون */
+    height: 5px; /* ارتفاع الشريط */
+    border-radius: 5px; /* زوايا دائرية */
+    transition: width 0.5s; /* تأثير الانتقال عند التغيير */
+}
+
+
+.timeline {
+    position: relative; /* لجعل العناصر تتداخل */
+    padding: 20px 0; /* مسافة عمودية */
+    border-left: 2px solid #6d493b; /* الخط العمودي */
+}
+
+.timeline-item {
+    position: relative; /* لجعل العناصر متراكبة */
+    margin: 5px 0; /* مسافة بين العناصر */
+    display: flex; /* استخدام flexbox لترتيب العناصر في صف */
+  
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.timeline-circle {
+    position: absolute; /* موقع الدائرة بالنسبة للعنصر */
+    left: -6.5px; /* تعديل الموقع إلى اليسار */
+    width: 8px; /* عرض الدائرة */
+    height: 8px; /* ارتفاع الدائرة */
+    background-color: #6d493b; /* لون الدائرة */
+    border-radius: 50%; /* يجعل الشكل دائريًا */
+    border: 2px solid #fff; /* لون الحدود */
+    margin-right: 15px; /* مسافة بين الدائرة والعنوان */
+}
+
+.timeline-content {
+    padding: 10px; /* مسافة داخلية */
+    padding-top: 0px;
+    border-radius: 5px; /* زوايا دائرية للخلفية */
+    text-align: left;
+    width: 100%;
+    
+}
+
+
+
+@media (max-width: 768px) {
+    /* جعل العمود الأيسر والأيمن يتراصان فوق بعضهما */
+    
+    .container {
+        flex-direction: column;
+        background-position: left;
+        width: 100%; /* جعل العرض 100% ليتناسب مع الشاشة */
+        height: auto; /* إزالة ارتفاع ثابت */
+        margin: 0px auto;
+    }
+
+   
+        
+
+  
+    
+    .left-column,
+    .right-column {
+        width: 90%; /* جعل العرض 100% لكل عمود */
+        height: auto; /* إزالة ارتفاع ثابت */
+    }
+
+    /* ضبط صورة الملف الشخصي */
+    .profile-img img {
+        width: 150px; /* جعل عرض الصورة أصغر */
+        height: 150px; /* جعل ارتفاع الصورة أصغر */
+    }
+
+    /* ضبط حجم النص */
+    h2.name-heading {
+        font-size: 30px !important; /* تقليل حجم النص */
+    }
+
+    h2 {
+        font-size: 24px; /* حجم النص لعنوان القسم */
+    }
+
+    h3 {
+        font-size: 18px; /* حجم النص لعنوان الفرعي */
+    }
+
+    /* تقليل حجم الخط للنصوص في الفقرات */
+    p {
+        font-size: 10px; /* حجم نص الفقرات */
+    }
+
+    /* ضبط حجم قوائم المهارات */
+    
+    .skills-list li {
+        display: flex; /* يجعل العناصر في السطر الواحد */
+        align-items: center; /* يضمن محاذاة عمودية للعناصر */
+        margin-bottom: 5px; /* مسافة بين العناصر */
+    }
+
+    /* تغيير تنسيق الخطوط في العمودين */
+    ul li {
+        font-size: 10px; /* حجم النص في القوائم */
+    }
+}
+
