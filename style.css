@@ -129,11 +129,7 @@ h2.name-heading {
 h3 {
     margin-top: -12px;
 }
-/* خط مختلف */
-h1, h2, h3,
-.name-heading,
-.title {
-    font-family: 'Montserrat', Arial, sans-serif; }
+
 
 ul {
     list-style: none;
