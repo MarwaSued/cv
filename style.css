@@ -79,7 +79,7 @@ body {
 /* العمود الأيمن */
 .right-column {
     width: 50%;
-    height: 280mm; 
+    height: 270mm; 
     padding: 20px;
     background-color: #ffffff00;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* ظل خفيف */
@@ -222,7 +222,7 @@ hr {
 
 .timeline {
     position: relative; /* لجعل العناصر تتداخل */
-    padding: 20px 0; /* مسافة عمودية */
+    padding: 00px 0; /* مسافة عمودية */
     border-left: 2px solid #6d493b; /* الخط العمودي */
 }
 
