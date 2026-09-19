@@ -247,7 +247,8 @@ hr {
 }
 
 .timeline-content {
-    padding: 10px; /* مسافة داخلية */
+    padding: 0px 0px 5px 10px;
+    /*padding: 10px;  مسافة داخلية */
     padding-top: 0px;
     border-radius: 5px; /* زوايا دائرية للخلفية */
     text-align: left;
