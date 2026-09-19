@@ -276,7 +276,7 @@ hr {
     
     .left-column,
     .right-column {
-        width: 90%; /* جعل العرض 100% لكل عمود */
+        width: 86%; /* جعل العرض 100% لكل عمود */
         height: auto; /* إزالة ارتفاع ثابت */
     }
 
@@ -285,6 +285,11 @@ hr {
         width: 150px; /* جعل عرض الصورة أصغر */
         height: 150px; /* جعل ارتفاع الصورة أصغر */
     }
+   
+    .profile-img { 
+    padding-top: 0px;
+    padding-left: 0px;
+}
 
     /* ضبط حجم النص */
     h2.name-heading {
