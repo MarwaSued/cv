@@ -1,7 +1,7 @@
 /* تنسيق الصفحة العامة */
 body {
     direction: rtl;
-    font-family: 'TAN Mon Cheri', cursive !important;
+    font-family: 'Poppins', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -101,7 +101,7 @@ section {
     
 }
 p {
-    
+    font-family: 'Poppins', sans-serif;
     font-size: 12px ;
     text-align: justify;
     direction: ltr;
@@ -114,6 +114,7 @@ p {
 }
 
 h2 {
+    font-family: 'Poppins', sans-serif;
     border-bottom: 2px solid #6d493b;
     padding-bottom: 42px;
     
