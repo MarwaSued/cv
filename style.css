@@ -266,7 +266,7 @@ hr {
         background-position: left;
         width: 100%; /* جعل العرض 100% ليتناسب مع الشاشة */
         height: auto; /* إزالة ارتفاع ثابت */
-        margin: 0px auto;
+        margin: 0px 0px 0px -11px;
     }
 
    
