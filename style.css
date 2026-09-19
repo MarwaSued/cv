@@ -260,7 +260,13 @@ hr {
 
 @media (max-width: 768px) {
     /* جعل العمود الأيسر والأيمن يتراصان فوق بعضهما */
+    body {
     
+    margin: 0;
+    padding: 5px;
+    min-height: 100vh; /* لضمان عرض الصفحة في وسط الشاشة */
+
+}
     .container {
         flex-direction: column;
         background-position: left;
