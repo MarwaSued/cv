@@ -273,6 +273,7 @@ hr {
         width: 100%; /* جعل العرض 100% ليتناسب مع الشاشة */
         height: auto; /* إزالة ارتفاع ثابت */
         margin: 0px 0px 0px 0px;
+        align-content: center;
     }
 
    
