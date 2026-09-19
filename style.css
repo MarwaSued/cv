@@ -2,7 +2,7 @@
 body {
     direction: rtl;
     font-family: 'Poppins', sans-serif;
-    line-height: 1.6;
+    line-height: 1.5;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -102,7 +102,7 @@ section {
 }
 p {
     font-family: 'Poppins', sans-serif;
-    font-size: 12px ;
+    font-size: 11px ;
     text-align: justify;
     direction: ltr;
    
@@ -116,7 +116,7 @@ p {
 h2 {
     font-family: 'Poppins', sans-serif;
     border-bottom: 2px solid #6d493b;
-    padding-bottom: 42px;
+    padding-bottom: 35px;
     
 }
 h2.name-heading {
