@@ -334,5 +334,8 @@ hr {
     ul li {
         font-size: 10px; /* حجم النص في القوائم */
     }
+    a {
+        font-size: 10px ;
+    }
 }
 
