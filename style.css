@@ -176,7 +176,7 @@ hr {
     text-align: center; /* محاذاة النص في المنتصف */
     width: 150px; 
     height: 31px; 
-    margin-bottom: -5px; /* مسافة تحت الدائرة */
+    margin-bottom: 0px; /* مسافة تحت الدائرة */
     position: relative; /* لجعل النص يظهر فوق الخلفية */
     overflow: hidden; /* لإخفاء أي جزء زائد من الصورة */
 }
