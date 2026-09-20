@@ -148,7 +148,11 @@ ul li i {
     margin-right: 10px;
    
 }
-
+a {
+color: #6d493b;
+font-size: 12px ;
+    
+}
 /* تنسيق الخبرات والتعليم */
 .experience-item, .education-item {
     margin-bottom: 5px;
